@@ -3,8 +3,12 @@ HybridVault
 Secure File Vault Application
 """
 
+from .gui import run_gui
+
+
 def main():
-    print("HybridVault starting...")
+    """Start the HybridVault application."""
+    run_gui()
 
 
 if __name__ == "__main__":
